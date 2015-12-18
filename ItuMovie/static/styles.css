@@ -1,0 +1,284 @@
+/* Wrappers */
+
+body { color: white; }
+
+.content {
+    margin-top: 20px;
+    min-height: 600px;
+}
+
+.wrap {
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Header */
+
+.mainLogoContainer {
+    height: 380px;
+    padding: 40px;
+    background-repeat: no-repeat;
+}
+
+.topCentered {
+    position: absolute;
+    top: 5%;
+    left: 32%;
+    text-align: center;
+}
+
+.topCentered > .topTitle {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.topCentered > .topDescription { font-size: 30px; }
+
+.mainLogoContainer img, .menuContent img { float: left; }
+
+/* Menu */
+
+.menu {
+    float: right;
+}
+
+.menuLine {
+    width: 45px;
+    height: 5px;
+    background: white;
+    margin-bottom: 7px;
+}
+
+.rotated45MenuLine {
+    -webkit-transform: rotate(45deg);
+    width: 45px;
+    height: 5px;
+    background: white;
+    margin-bottom: 7px;
+}
+
+.rotated135MenuLine {
+    -webkit-transform: rotate(135deg);
+    width: 45px;
+    height: 5px;
+    background: white;
+    margin-top: -11px;
+}
+
+.menuOverlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #e60038;
+    background: rgba(230, 0, 56, 0.9);
+    z-index: 300;
+    display: none;
+}
+
+.menuContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.menuOverlay .menuContent {
+    text-align: center;
+    color: #f9f9f9;
+    display: none;
+    padding: 50px 0
+}
+
+.showMenu { display: block !important; }
+
+.menu:hover, .hideMenu:hover, .seeMoreButton:hover,
+.voteButton:hover, .contactButton:hover, .mainLogoContainer > a > img:hover,
+.socialButtons > a > div:hover {
+    -ms-opacity: 0.7;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.menuOverlay a {
+    font-size: 3em;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.menuOverlay a:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* Movies Page */
+
+
+
+.movieOffer {
+    height: 440px;
+    padding-left: 60px;
+    padding-top: 10px;
+    line-height: 42px;
+}
+
+.movieOffer > a {
+    color: white;
+    text-decoration: none;
+}
+
+.movieOffer > p {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.rating {
+    background: url("img/star.png") 0 0 no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.rating > p {
+    top: 25%;
+    left: 36%;
+    color: black;
+    position: relative;
+}
+
+.seeMoreButton {
+    width: 200px;
+    border: 2px solid white;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    line-height: 35px;
+}
+
+.seeMoreButton p {
+    font-size: 25px;
+    color: white;
+}
+
+.voteButton {
+    top: 60px;
+    width: 125px;
+    border: 2px solid white;
+    position: relative;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    line-height: 10px;
+}
+
+.voteButton p {
+    font-size: 18px;
+    color: white
+}
+
+.contactButton {
+    width: 250px;
+    height: 85px;
+    border: 2px solid red;
+    position: relative;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    top: 100px;
+    left: 60px;
+}
+
+.contactButton > h2 {
+    display: inline-block;
+    line-height: 40px;
+    color: red;
+}
+
+footer { height: 350px; }
+
+.socialButtons {
+    float: right;
+    position: relative;
+    top: 130px;
+}
+
+.socialButton {
+    float: left;
+    width: 73px;
+    height: 73px;
+}
+
+#facebook { background: url("img/socialButtons.jpg") 0 0 no-repeat; }
+
+#pinterest { background: url("img/socialButtons.jpg") -75px 0 no-repeat; }
+
+#rss { background: url("img/socialButtons.jpg") -152px 0 no-repeat; }
+
+#twiter { background: url("img/socialButtons.jpg") -233px 0 no-repeat; }
+
+/* Event Page */
+
+.leftEvent, .rightEvent {
+    padding: 80px;
+    padding-bottom: 120px;
+    border-bottom: 1px solid black;
+}
+
+.leftEvent p, .rightEvent p {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.leftEvent p { overflow: hidden; }
+
+.rightEvent > p { width: 75%; }
+
+.leftEvent > p {
+    width: 65%;
+    margin-left: 25%;
+}
+
+.leftEventImage {
+    float: left;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.leftEventImage p, .rightEventImage p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.rightEventImage {
+    float: right;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.leftContactContent {
+    float: left;
+    color: black;
+}
+
+/* Contact Page */
+
+.contact {
+    padding: 5%;
+    border-bottom: 1px solid black;
+}
+
+.contact div > p { text-align: justify; }
+
+.contact div {
+    float: left;
+    width: 35%;
+    top: 80px;
+    position: relative;
+}
+
+.contact iframe { margin-left: 10%; }

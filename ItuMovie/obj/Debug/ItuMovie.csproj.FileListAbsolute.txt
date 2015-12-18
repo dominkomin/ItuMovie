@@ -1,0 +1,6 @@
+C:\ITU\Dropbox\Dropbox\Projects\VS 2013\ItuMovie\ItuMovie\obj\Debug\ItuMovie.csprojResolveAssemblyReference.cache
+C:\ITU\Dropbox\Dropbox\Projects\VS 2013\ItuMovie\ItuMovie\bin\Debug\ItuMovie.dll.config
+C:\ITU\Dropbox\Dropbox\Projects\VS 2013\ItuMovie\ItuMovie\bin\Debug\ItuMovie.dll
+C:\ITU\Dropbox\Dropbox\Projects\VS 2013\ItuMovie\ItuMovie\bin\Debug\ItuMovie.pdb
+C:\ITU\Dropbox\Dropbox\Projects\VS 2013\ItuMovie\ItuMovie\obj\Debug\ItuMovie.dll
+C:\ITU\Dropbox\Dropbox\Projects\VS 2013\ItuMovie\ItuMovie\obj\Debug\ItuMovie.pdb

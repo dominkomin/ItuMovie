@@ -1,0 +1,379 @@
+/*
+Theme Name: ITU FILM
+Author: Dominik Grondziowski
+Description: Theme made for FRWAW mandatory assignment 2.
+Version: 0.0.1
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: ITU Film
+
+BlankSlate WordPress Theme © 2011-2014 TidyThemes
+BlankSlate is distributed under the terms of the GNU GPL
+*/
+
+body p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Wrappers */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    min-width: 350px;
+}
+
+.content { margin-top: 20px; }
+
+
+/* Header */
+.mainLogoContainer {
+    height: 460px;
+    padding: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-repeat: no-repeat;
+}
+
+.mainLogoContainer img, .menuContainer img {
+    float: left;
+    margin-bottom: 20px;
+    width: 20%;
+    min-width: 180px;
+}
+
+.myMenu {
+    float: right;
+}
+
+.menuLine {
+    width: 45px;
+    height: 5px;
+    background: white;
+    margin-bottom: 7px;
+}
+
+.rotated45MenuLine {
+    -webkit-transform: rotate(45deg);
+    width: 45px;
+    height: 5px;
+    background: white;
+    margin-bottom: 7px;
+}
+
+.rotated135MenuLine {
+    -webkit-transform: rotate(135deg);
+    width: 45px;
+    height: 5px;
+    background: white;
+    margin-top: -11px;
+}
+
+.topCentered > .topDescription { font-size: 2em; }
+
+.topCentered {
+    text-align: center;
+    margin: auto;
+    clear: both;
+}
+
+.topCentered > .topTitle {
+    font-size: 4em;
+    margin-bottom: 5px;
+}
+
+
+/* Menu */
+.menuOverlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #e60038;
+    background: rgba(230, 0, 56, 0.9);
+    z-index: 300;
+    display: none;
+}
+
+.menuContainer .menuContent { clear: both; }
+
+.menuContainer {
+    max-width: 1200px;
+    min-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.menuContainer .myMenu { margin-top: 20px; }
+
+.menuOverlay .menuContent {
+    text-align: center;
+    padding: 100px 0;
+    display: none;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.showMenu { display: block !important; }
+
+.myMenu:hover, .hideMenu:hover, .seeMoreButton:hover,
+.voteButton:hover, .contactButton:hover, .mainLogoContainer > a > img:hover,
+.socialButtons > a > div:hover {
+    -ms-opacity: 0.7;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.menuOverlay a {
+    font-size: 3em;
+    display: block;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.menuOverlay a:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.menuContent ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    padding: 2%;
+    overflow: hidden;
+    padding-left: 5%;
+}
+
+.contactButton {
+    width: 250px;
+    border: 2px solid red;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.contactButton p {
+    font-size: 1.8em;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.socialButtons {
+    height: 75px;
+    float: right;
+}
+
+.socialButtons a { float: left; }
+
+.socialButton {
+    float: left;
+    width: 73px;
+    height: 73px;
+}
+
+#facebook { background: url("img/socialButtons.jpg") 0 0 no-repeat; }
+
+#pinterest { background: url("img/socialButtons.jpg") -75px 0 no-repeat; }
+
+#rss { background: url("img/socialButtons.jpg") -152px 0 no-repeat; }
+
+#twiter { background: url("img/socialButtons.jpg") -233px 0 no-repeat; }
+
+
+
+/* Movies Page */
+.movieOffer > a {
+    color: white;
+    text-decoration: none;
+}
+
+.movieOffer {
+    height: 450px;
+    padding-left: 5%;
+    padding-top: 0.5%;
+    padding-right: 5%;
+    position: relative;
+    line-height: 42px;
+    background-size: cover;
+    background-position: center;
+}
+
+.movieOffer > p {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.rating {
+    background: url("img/star.png") 0 0 no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+.rating > p {
+    top: 25%;
+    position: relative;
+    left: 36%;
+    color: black;
+}
+
+.seeMoreButton {
+    width: 200px;
+    border: 2px solid white;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    line-height: 35px;
+}
+
+.seeMoreButton p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.voteButton {
+    width: 125px;
+    border: 2px solid white;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    line-height: 10px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+}
+
+.voteButton p {
+    font-size: 18px;
+    color: white
+}
+
+
+/* Event Page */
+.leftEvent, .rightEvent {
+    padding: 3% 8%;
+    border-bottom: 1px solid red;
+    overflow: hidden;
+}
+
+.leftEvent p, .rightEvent p {
+    color: black;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+/*.leftEvent p { overflow: hidden; }*/
+
+.leftEventImage p, .rightEventImage p {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.leftEventImage {
+    float: left;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.rightEventImage {
+    float: right;
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+/* Contact page */
+.contact {
+    color: black;
+    padding-bottom: 0;
+    border-bottom: 1px solid red;
+    overflow: hidden;
+}
+
+.contact p {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.contact .leftContactContent { padding: 5%; }
+
+.contact iframe {
+    margin: 5%;
+    float: right;
+}
+
+/* Media Queries */
+@media screen and (max-width: 550px) {
+    .seeMoreButton { display: none; }
+
+    .movieOffer { height: 300px; }
+
+    .rating { display: none; }
+
+    .mainLogoContainer { height: 300px; }
+
+    .topCentered > .topTitle { font-size: 2.5em; }
+
+    .topCentered > .topDescription { font-size: 1.5em; }
+
+    .contactButton p {
+        font-size: 1.4em;
+        line-height: 35px;
+    }
+
+    .contactButton { width: 180px; }
+
+    .movieOffer > p { font-size: 2.5em }
+
+    .leftEventImage, .rightEventImage {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer { display: none; }
+
+    .wrap { margin: 0; }
+
+    body { margin: 0; }
+
+    .leftEvent p, .rightEvent p, .contact p { font-size: 1em; }
+
+    .leftEventImage p, .rightEventImage p { font-size: 1.5em; }
+
+    .contact iframe {
+        float: none;
+        margin: 0;
+    }
+
+    .contact .leftContactContent { clear: both; }
+
+    .content { margin-top: 10px; }
+}
+
+@media screen and (max-width: 650px) {
+    .contact iframe {
+        width: 360px;
+        height: 250px;
+    }
+}

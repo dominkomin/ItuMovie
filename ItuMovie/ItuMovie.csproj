@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2289CE5E-6658-4C27-B58A-CA86B6056F04}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ItuMovie</RootNamespace>
+    <AssemblyName>ItuMovie</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="blankslateITU\css\bootstrap-theme.css.map" />
+    <None Include="blankslateITU\css\bootstrap.css.map" />
+    <None Include="blankslateITU\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="blankslateITU\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="blankslateITU\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="blankslateITU\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="blankslateITU\404.php" />
+    <Content Include="blankslateITU\archive.php" />
+    <Content Include="blankslateITU\attachment.php" />
+    <Content Include="blankslateITU\author.php" />
+    <Content Include="blankslateITU\category.php" />
+    <Content Include="blankslateITU\comments.php" />
+    <Content Include="blankslateITU\contact-page.php" />
+    <Content Include="blankslateITU\css\bootstrap-theme.css" />
+    <Content Include="blankslateITU\css\bootstrap-theme.min.css" />
+    <Content Include="blankslateITU\css\bootstrap.css" />
+    <Content Include="blankslateITU\css\bootstrap.min.css" />
+    <Content Include="blankslateITU\css\graphics\bg.png" />
+    <Content Include="blankslateITU\entry-content.php" />
+    <Content Include="blankslateITU\entry-footer.php" />
+    <Content Include="blankslateITU\entry-meta.php" />
+    <Content Include="blankslateITU\entry-summary.php" />
+    <Content Include="blankslateITU\entry.php" />
+    <Content Include="blankslateITU\event-page - Copy.php" />
+    <Content Include="blankslateITU\Event-page.php" />
+    <Content Include="blankslateITU\events-page.php" />
+    <Content Include="blankslateITU\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="blankslateITU\footer.php" />
+    <Content Include="blankslateITU\functions.php" />
+    <Content Include="blankslateITU\header.php" />
+    <Content Include="blankslateITU\img\beer.png" />
+    <Content Include="blankslateITU\img\calendar.png" />
+    <Content Include="blankslateITU\img\cinemaBackgroundllbiggerOpc.jpg" />
+    <Content Include="blankslateITU\img\cinemaBackgroundRed.jpg" />
+    <Content Include="blankslateITU\img\herBackground.jpg" />
+    <Content Include="blankslateITU\img\iOriginBackground.jpg" />
+    <Content Include="blankslateITU\img\IoriginBgjpg.jpg" />
+    <Content Include="blankslateITU\img\logo.png" />
+    <Content Include="blankslateITU\img\logoWhite.png" />
+    <Content Include="blankslateITU\img\movie.png" />
+    <Content Include="blankslateITU\img\socialButtons.jpg" />
+    <Content Include="blankslateITU\img\soulBackground.jpg" />
+    <Content Include="blankslateITU\img\star.png" />
+    <Content Include="blankslateITU\img\topBackground.jpg" />
+    <Content Include="blankslateITU\index - Copy.php" />
+    <Content Include="blankslateITU\index.php" />
+    <Content Include="blankslateITU\jquery-2.1.3.min.js" />
+    <Content Include="blankslateITU\js\bootstrap.js" />
+    <Content Include="blankslateITU\js\bootstrap.min.js" />
+    <Content Include="blankslateITU\js\jquery-2.1.3.min.js" />
+    <Content Include="blankslateITU\js\npm.js" />
+    <Content Include="blankslateITU\js\scripts.js" />
+    <Content Include="blankslateITU\nav-below-single.php" />
+    <Content Include="blankslateITU\nav-below.php" />
+    <Content Include="blankslateITU\page - Copy.php" />
+    <Content Include="blankslateITU\page.php" />
+    <Content Include="blankslateITU\readme.txt" />
+    <Content Include="blankslateITU\screenshot.png" />
+    <Content Include="blankslateITU\scripts.js" />
+    <Content Include="blankslateITU\search.php" />
+    <Content Include="blankslateITU\sidebar.php" />
+    <Content Include="blankslateITU\single.php" />
+    <Content Include="blankslateITU\style.css" />
+    <Content Include="blankslateITU\tag.php" />
+    <Content Include="contact.html" />
+    <Content Include="img\cinemaBackgroundllbiggerOpc.jpg" />
+    <Content Include="img\cinemaBackgroundRed.jpg" />
+    <Content Include="img\IoriginBgjpg.jpg" />
+    <Content Include="responsive\contact.html" />
+    <Content Include="responsive\event.html" />
+    <Content Include="responsive\img\beer.png" />
+    <Content Include="responsive\img\calendar.png" />
+    <Content Include="responsive\img\cinemaBackgroundllbiggerOpc.jpg" />
+    <Content Include="responsive\img\cinemaBackgroundRed.jpg" />
+    <Content Include="responsive\img\herBackground.jpg" />
+    <Content Include="responsive\img\iOriginBackground.jpg" />
+    <Content Include="responsive\img\IoriginBgjpg.jpg" />
+    <Content Include="responsive\img\logo.png" />
+    <Content Include="responsive\img\logoWhite.png" />
+    <Content Include="responsive\img\movie.png" />
+    <Content Include="responsive\img\socialButtons.jpg" />
+    <Content Include="responsive\img\soulBackground.jpg" />
+    <Content Include="responsive\img\star.png" />
+    <Content Include="responsive\img\topBackground.jpg" />
+    <Content Include="responsive\index.html" />
+    <Content Include="responsive\jquery-2.1.3.min.js" />
+    <Content Include="responsive\scripts.js" />
+    <Content Include="responsive\styles.css" />
+    <Content Include="scripts.js" />
+    <Content Include="img\beer.png" />
+    <Content Include="img\calendar.png" />
+    <Content Include="img\herBackground.jpg" />
+    <Content Include="img\iOriginBackground.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logoWhite.png" />
+    <Content Include="img\movie.png" />
+    <Content Include="img\socialButtons.jpg" />
+    <Content Include="img\soulBackground.jpg" />
+    <Content Include="img\star.png" />
+    <Content Include="img\topBackground.jpg" />
+    <Content Include="event.html" />
+    <Content Include="index.html" />
+    <Content Include="jquery-2.1.3.min.js" />
+    <Content Include="static\contact.html" />
+    <Content Include="static\event.html" />
+    <Content Include="static\img\beer.png" />
+    <Content Include="static\img\calendar.png" />
+    <Content Include="static\img\cinemaBackgroundllbiggerOpc.jpg" />
+    <Content Include="static\img\cinemaBackgroundRed.jpg" />
+    <Content Include="static\img\herBackground.jpg" />
+    <Content Include="static\img\iOriginBackground.jpg" />
+    <Content Include="static\img\logo.png" />
+    <Content Include="static\img\logoWhite.png" />
+    <Content Include="static\img\movie.png" />
+    <Content Include="static\img\socialButtons.jpg" />
+    <Content Include="static\img\soulBackground.jpg" />
+    <Content Include="static\img\star.png" />
+    <Content Include="static\img\topBackground.jpg" />
+    <Content Include="static\index.html" />
+    <Content Include="static\jquery-2.1.3.min.js" />
+    <Content Include="static\scripts.js" />
+    <Content Include="static\styles.css" />
+    <Content Include="styles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="blankslateITU\languages\" />
+    <Folder Include="static\img\images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
